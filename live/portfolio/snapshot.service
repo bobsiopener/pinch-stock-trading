@@ -1,0 +1,14 @@
+[Unit]
+Description=Pinch Portfolio Snapshot
+Documentation=https://github.com/pinch/pinch-stock-trading
+After=network.target
+
+[Service]
+Type=oneshot
+# Adjust path to match your deployment location
+ExecStart=/usr/bin/python3 /home/bob/AI_sandbox/pinch-stock-trading/live/portfolio/snapshot_daemon.py take
+WorkingDirectory=/home/bob/AI_sandbox/pinch-stock-trading
+StandardOutput=journal
+StandardError=journal
+# Environment variable overrides (optional)
+# Environment="PORTFOLIO_DB=/path/to/custom/portfolio.db"

@@ -1,0 +1,28 @@
+[Unit]
+Description=Pinch Portfolio Snapshot Timer
+Documentation=https://github.com/pinch/pinch-stock-trading
+Requires=snapshot.service
+
+[Timer]
+# Market open: 9:35 AM ET (UTC-4 in summer / UTC-5 in winter)
+# Market close: 4:05 PM ET
+# These OnCalendar values use ET (America/New_York) — systemd resolves the local timezone.
+OnCalendar=Mon-Fri 09:35 America/New_York
+OnCalendar=Mon-Fri 16:05 America/New_York
+Persistent=true
+Unit=snapshot.service
+
+[Install]
+WantedBy=timers.target
+
+# ─── Installation (do NOT run as root) ───────────────────────────────────────
+# To install as a systemd user unit:
+#
+#   mkdir -p ~/.config/systemd/user/
+#   cp snapshot.service snapshot.timer ~/.config/systemd/user/
+#   systemctl --user daemon-reload
+#   systemctl --user enable --now snapshot.timer
+#   systemctl --user list-timers snapshot.timer
+#
+# To check logs:
+#   journalctl --user -u snapshot.service -f
