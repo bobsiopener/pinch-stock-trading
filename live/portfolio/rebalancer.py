@@ -78,7 +78,7 @@ def get_market_price(symbol: str) -> Optional[float]:
     try:
         with sqlite3.connect(MARKET_DB) as conn:
             row = conn.execute(
-                "SELECT close FROM prices WHERE symbol = ? ORDER BY date DESC LIMIT 1",
+                "SELECT close FROM prices WHERE symbol = ? ORDER BY timestamp DESC LIMIT 1",
                 (symbol.upper(),)
             ).fetchone()
             return row[0] if row else None
@@ -95,6 +95,13 @@ def get_cash() -> float:
 
 def get_holdings() -> list[dict]:
     with get_portfolio_conn() as conn:
+        # 'positions' is the active table; 'holdings' kept for legacy compat
+        try:
+            rows = conn.execute("SELECT symbol, shares, avg_cost, sector FROM positions").fetchall()
+            if rows:
+                return [dict(r) for r in rows]
+        except Exception:
+            pass
         rows = conn.execute("SELECT symbol, shares, avg_cost, sector FROM holdings").fetchall()
         return [dict(r) for r in rows]
 
@@ -130,7 +137,7 @@ def get_regime() -> str:
     try:
         with sqlite3.connect(MARKET_DB) as conn:
             rows = conn.execute(
-                "SELECT date, close FROM prices WHERE symbol = 'SPY' ORDER BY date DESC LIMIT 200"
+                "SELECT timestamp, close FROM prices WHERE symbol = 'SPY' ORDER BY timestamp DESC LIMIT 200"
             ).fetchall()
 
         if len(rows) < 200:
