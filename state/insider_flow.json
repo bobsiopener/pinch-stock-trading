@@ -1,0 +1,22 @@
+{
+  "insider": {
+    "NVDA": {
+      "ticker": "NVDA",
+      "signal": "NEUTRAL",
+      "buy_filings": 0,
+      "sell_filings": 0,
+      "total_filings": 20,
+      "price_stats": {
+        "current": 180.25,
+        "high_52w": 207.02847290039062,
+        "low_52w": 94.29288482666016,
+        "pct_from_low": 91.15970450088142,
+        "pct_from_high": -12.934681169809325
+      },
+      "reasons": [],
+      "filing_count": 20,
+      "checked_at": "2026-03-14T23:05:20.100781"
+    }
+  },
+  "institutional": {}
+}

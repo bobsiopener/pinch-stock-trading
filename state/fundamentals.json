@@ -1,0 +1,541 @@
+{
+  "ANET": {
+    "symbol": "ANET",
+    "fetched_at": "2026-03-14T23:05:18.604440",
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": 168202715136,
+    "pe_ratio": 48.57091,
+    "forward_pe": 31.330046,
+    "pb_ratio": 13.567293,
+    "ps_ratio": 18.67736,
+    "ev_ebitda": 39.992,
+    "profit_margin": 0.38991,
+    "roe": 0.314,
+    "debt_equity": 0.179,
+    "current_ratio": 3.048,
+    "fcf_yield": 2.014213992479651,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "revenue_growth": 0.289,
+    "earnings_growth": 0.191,
+    "roa": 0.14392,
+    "operating_cf": 4371899904,
+    "total_debt": 22100000,
+    "total_assets": null,
+    "current_price": 133.57,
+    "fifty_two_week_high": 164.94,
+    "fifty_two_week_low": 59.43,
+    "scores": {
+      "piotroski": {
+        "score": 9,
+        "max": 9,
+        "points": {
+          "P1_roa_positive": 1,
+          "P2_ocf_positive": 1,
+          "P3_fcf_positive": 1,
+          "P4_profit_margin_pos": 1,
+          "L1_low_debt_equity": 1,
+          "L2_current_ratio_gt1": 1,
+          "L3_no_dilution": 1,
+          "E1_roe_positive": 1,
+          "E2_earnings_growth": 1
+        }
+      },
+      "quality": {
+        "score": 4,
+        "max": 4,
+        "criteria": {
+          "roe_gt_15pct": true,
+          "de_lt_1": true,
+          "margin_gt_10pct": true,
+          "revenue_growing": true
+        },
+        "pct": 100.0
+      },
+      "value": {
+        "score": 0,
+        "max": 3,
+        "criteria": {
+          "pe_below_sector_median": false,
+          "pb_lt_3": false,
+          "fcf_yield_gt_5pct": false
+        },
+        "pct": 0.0
+      },
+      "growth": {
+        "score": 3,
+        "max": 3,
+        "criteria": {
+          "revenue_growth_gt_10pct": true,
+          "earnings_growth_gt_15pct": true,
+          "forward_pe_lt_trailing": true
+        },
+        "pct": 100.0
+      },
+      "composite": 80.0
+    }
+  },
+  "AVGO": {
+    "symbol": "AVGO",
+    "fetched_at": "2026-03-14T23:05:18.762635",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": 1527448731648,
+    "pe_ratio": 62.92188,
+    "forward_pe": 18.372114,
+    "pb_ratio": 5.4399624,
+    "ps_ratio": 22.369713,
+    "ev_ebitda": 4.347,
+    "profit_margin": 0.36571997,
+    "roe": 0.33370999,
+    "debt_equity": 166.032,
+    "current_ratio": 1.902,
+    "fcf_yield": 1.6696959849175044,
+    "dividend_yield": 0.81,
+    "payout_ratio": 0.47169998,
+    "revenue_growth": 0.164,
+    "earnings_growth": 1.881,
+    "roa": 0.10663,
+    "operating_cf": 29684000768,
+    "total_debt": 40456998912,
+    "total_assets": null,
+    "current_price": 322.16,
+    "fifty_two_week_high": 414.61,
+    "fifty_two_week_low": 138.1,
+    "scores": {
+      "piotroski": {
+        "score": 8,
+        "max": 9,
+        "points": {
+          "P1_roa_positive": 1,
+          "P2_ocf_positive": 1,
+          "P3_fcf_positive": 1,
+          "P4_profit_margin_pos": 1,
+          "L1_low_debt_equity": 0,
+          "L2_current_ratio_gt1": 1,
+          "L3_no_dilution": 1,
+          "E1_roe_positive": 1,
+          "E2_earnings_growth": 1
+        }
+      },
+      "quality": {
+        "score": 3,
+        "max": 4,
+        "criteria": {
+          "roe_gt_15pct": true,
+          "de_lt_1": false,
+          "margin_gt_10pct": true,
+          "revenue_growing": true
+        },
+        "pct": 75.0
+      },
+      "value": {
+        "score": 0,
+        "max": 3,
+        "criteria": {
+          "pe_below_sector_median": false,
+          "pb_lt_3": false,
+          "fcf_yield_gt_5pct": false
+        },
+        "pct": 0.0
+      },
+      "growth": {
+        "score": 3,
+        "max": 3,
+        "criteria": {
+          "revenue_growth_gt_10pct": true,
+          "earnings_growth_gt_15pct": true,
+          "forward_pe_lt_trailing": true
+        },
+        "pct": 100.0
+      },
+      "composite": 69.30555555555557
+    }
+  },
+  "BRK-B": {
+    "symbol": "BRK-B",
+    "fetched_at": "2026-03-14T23:05:18.919321",
+    "sector": "Financial Services",
+    "industry": "Insurance - Diversified",
+    "market_cap": 1057158791168,
+    "pe_ratio": 15.797227,
+    "forward_pe": 22.60015,
+    "pb_ratio": 0.0009826877,
+    "ps_ratio": 2.8460786,
+    "ev_ebitda": -2.124,
+    "profit_margin": 0.18029,
+    "roe": 0.09809,
+    "debt_equity": 18.809,
+    "current_ratio": 7.067,
+    "fcf_yield": 3.480992966755921,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "revenue_growth": -0.007,
+    "earnings_growth": -0.025,
+    "roa": 0.051090002,
+    "operating_cf": 45968998400,
+    "total_debt": 135370997760,
+    "total_assets": null,
+    "current_price": 490.03,
+    "fifty_two_week_high": 542.07,
+    "fifty_two_week_low": 455.19,
+    "scores": {
+      "piotroski": {
+        "score": 8,
+        "max": 9,
+        "points": {
+          "P1_roa_positive": 1,
+          "P2_ocf_positive": 1,
+          "P3_fcf_positive": 1,
+          "P4_profit_margin_pos": 1,
+          "L1_low_debt_equity": 1,
+          "L2_current_ratio_gt1": 1,
+          "L3_no_dilution": 1,
+          "E1_roe_positive": 1,
+          "E2_earnings_growth": 0
+        }
+      },
+      "quality": {
+        "score": 2,
+        "max": 4,
+        "criteria": {
+          "roe_gt_15pct": false,
+          "de_lt_1": true,
+          "margin_gt_10pct": true,
+          "revenue_growing": false
+        },
+        "pct": 50.0
+      },
+      "value": {
+        "score": 2,
+        "max": 3,
+        "criteria": {
+          "pe_below_sector_median": true,
+          "pb_lt_3": true,
+          "fcf_yield_gt_5pct": false
+        },
+        "pct": 66.66666666666666
+      },
+      "growth": {
+        "score": 0,
+        "max": 3,
+        "criteria": {
+          "revenue_growth_gt_10pct": false,
+          "earnings_growth_gt_15pct": false,
+          "forward_pe_lt_trailing": false
+        },
+        "pct": 0.0
+      },
+      "composite": 61.38888888888889
+    }
+  },
+  "GOOG": {
+    "symbol": "GOOG",
+    "fetched_at": "2026-03-14T23:05:19.110800",
+    "sector": "Communication Services",
+    "industry": "Internet Content & Information",
+    "market_cap": 3646761730048,
+    "pe_ratio": 27.861368,
+    "forward_pe": 22.477924,
+    "pb_ratio": 8.775361,
+    "ps_ratio": 9.052721,
+    "ev_ebitda": 23.885,
+    "profit_margin": 0.32810003,
+    "roe": 0.35705003,
+    "debt_equity": 16.133,
+    "current_ratio": 2.005,
+    "fcf_yield": 1.0444437871047492,
+    "dividend_yield": 0.28,
+    "payout_ratio": 0.076799996,
+    "revenue_growth": 0.18,
+    "earnings_growth": 0.311,
+    "roa": 0.15427,
+    "operating_cf": 164713005056,
+    "total_debt": 66995998720,
+    "total_assets": null,
+    "current_price": 301.46,
+    "fifty_two_week_high": 350.15,
+    "fifty_two_week_low": 142.66,
+    "scores": {
+      "piotroski": {
+        "score": 9,
+        "max": 9,
+        "points": {
+          "P1_roa_positive": 1,
+          "P2_ocf_positive": 1,
+          "P3_fcf_positive": 1,
+          "P4_profit_margin_pos": 1,
+          "L1_low_debt_equity": 1,
+          "L2_current_ratio_gt1": 1,
+          "L3_no_dilution": 1,
+          "E1_roe_positive": 1,
+          "E2_earnings_growth": 1
+        }
+      },
+      "quality": {
+        "score": 4,
+        "max": 4,
+        "criteria": {
+          "roe_gt_15pct": true,
+          "de_lt_1": true,
+          "margin_gt_10pct": true,
+          "revenue_growing": true
+        },
+        "pct": 100.0
+      },
+      "value": {
+        "score": 0,
+        "max": 3,
+        "criteria": {
+          "pe_below_sector_median": false,
+          "pb_lt_3": false,
+          "fcf_yield_gt_5pct": false
+        },
+        "pct": 0.0
+      },
+      "growth": {
+        "score": 3,
+        "max": 3,
+        "criteria": {
+          "revenue_growth_gt_10pct": true,
+          "earnings_growth_gt_15pct": true,
+          "forward_pe_lt_trailing": true
+        },
+        "pct": 100.0
+      },
+      "composite": 80.0
+    }
+  },
+  "MSFT": {
+    "symbol": "MSFT",
+    "fetched_at": "2026-03-14T23:05:19.273244",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": 2939877064704,
+    "pe_ratio": 24.752815,
+    "forward_pe": 20.990755,
+    "pb_ratio": 7.5178175,
+    "ps_ratio": 9.624646,
+    "ev_ebitda": 16.952,
+    "profit_margin": 0.39044,
+    "roe": 0.34390998,
+    "debt_equity": 31.539,
+    "current_ratio": 1.386,
+    "fcf_yield": 1.8245873890444728,
+    "dividend_yield": 0.92,
+    "payout_ratio": 0.21280001,
+    "revenue_growth": 0.167,
+    "earnings_growth": 0.598,
+    "roa": 0.1486,
+    "operating_cf": 160506003456,
+    "total_debt": 123278000128,
+    "total_assets": null,
+    "current_price": 395.55,
+    "fifty_two_week_high": 555.45,
+    "fifty_two_week_low": 344.79,
+    "scores": {
+      "piotroski": {
+        "score": 9,
+        "max": 9,
+        "points": {
+          "P1_roa_positive": 1,
+          "P2_ocf_positive": 1,
+          "P3_fcf_positive": 1,
+          "P4_profit_margin_pos": 1,
+          "L1_low_debt_equity": 1,
+          "L2_current_ratio_gt1": 1,
+          "L3_no_dilution": 1,
+          "E1_roe_positive": 1,
+          "E2_earnings_growth": 1
+        }
+      },
+      "quality": {
+        "score": 4,
+        "max": 4,
+        "criteria": {
+          "roe_gt_15pct": true,
+          "de_lt_1": true,
+          "margin_gt_10pct": true,
+          "revenue_growing": true
+        },
+        "pct": 100.0
+      },
+      "value": {
+        "score": 1,
+        "max": 3,
+        "criteria": {
+          "pe_below_sector_median": true,
+          "pb_lt_3": false,
+          "fcf_yield_gt_5pct": false
+        },
+        "pct": 33.33333333333333
+      },
+      "growth": {
+        "score": 3,
+        "max": 3,
+        "criteria": {
+          "revenue_growth_gt_10pct": true,
+          "earnings_growth_gt_15pct": true,
+          "forward_pe_lt_trailing": true
+        },
+        "pct": 100.0
+      },
+      "composite": 86.66666666666667
+    }
+  },
+  "NVDA": {
+    "symbol": "NVDA",
+    "fetched_at": "2026-03-14T23:05:19.455599",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": 4380976218112,
+    "pe_ratio": 36.785713,
+    "forward_pe": 16.68892,
+    "pb_ratio": 27.85074,
+    "ps_ratio": 20.28812,
+    "ev_ebitda": 32.492,
+    "profit_margin": 0.55603004,
+    "roe": 1.01485,
+    "debt_equity": 7.255,
+    "current_ratio": 3.905,
+    "fcf_yield": 1.3268503526606892,
+    "dividend_yield": 0.02,
+    "payout_ratio": 0.0082,
+    "revenue_growth": 0.732,
+    "earnings_growth": 0.956,
+    "roa": 0.51188,
+    "operating_cf": 102717997056,
+    "total_debt": 11411999744,
+    "total_assets": null,
+    "current_price": 180.25,
+    "fifty_two_week_high": 212.19,
+    "fifty_two_week_low": 86.62,
+    "scores": {
+      "piotroski": {
+        "score": 9,
+        "max": 9,
+        "points": {
+          "P1_roa_positive": 1,
+          "P2_ocf_positive": 1,
+          "P3_fcf_positive": 1,
+          "P4_profit_margin_pos": 1,
+          "L1_low_debt_equity": 1,
+          "L2_current_ratio_gt1": 1,
+          "L3_no_dilution": 1,
+          "E1_roe_positive": 1,
+          "E2_earnings_growth": 1
+        }
+      },
+      "quality": {
+        "score": 4,
+        "max": 4,
+        "criteria": {
+          "roe_gt_15pct": true,
+          "de_lt_1": true,
+          "margin_gt_10pct": true,
+          "revenue_growing": true
+        },
+        "pct": 100.0
+      },
+      "value": {
+        "score": 0,
+        "max": 3,
+        "criteria": {
+          "pe_below_sector_median": false,
+          "pb_lt_3": false,
+          "fcf_yield_gt_5pct": false
+        },
+        "pct": 0.0
+      },
+      "growth": {
+        "score": 3,
+        "max": 3,
+        "criteria": {
+          "revenue_growth_gt_10pct": true,
+          "earnings_growth_gt_15pct": true,
+          "forward_pe_lt_trailing": true
+        },
+        "pct": 100.0
+      },
+      "composite": 80.0
+    }
+  },
+  "PLTR": {
+    "symbol": "PLTR",
+    "fetched_at": "2026-03-14T23:05:19.615559",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": 361023438848,
+    "pe_ratio": 239.60316,
+    "forward_pe": 81.677155,
+    "pb_ratio": 48.866947,
+    "ps_ratio": 80.667595,
+    "ev_ebitda": 245.929,
+    "profit_margin": 0.36310002,
+    "roe": 0.25983,
+    "debt_equity": 3.063,
+    "current_ratio": 7.11,
+    "fcf_yield": 0.349262198605027,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "revenue_growth": 0.7,
+    "earnings_growth": 6.476,
+    "roa": 0.11597,
+    "operating_cf": 2134472960,
+    "total_debt": 229338000,
+    "total_assets": null,
+    "current_price": 150.95,
+    "fifty_two_week_high": 207.52,
+    "fifty_two_week_low": 66.12,
+    "scores": {
+      "piotroski": {
+        "score": 9,
+        "max": 9,
+        "points": {
+          "P1_roa_positive": 1,
+          "P2_ocf_positive": 1,
+          "P3_fcf_positive": 1,
+          "P4_profit_margin_pos": 1,
+          "L1_low_debt_equity": 1,
+          "L2_current_ratio_gt1": 1,
+          "L3_no_dilution": 1,
+          "E1_roe_positive": 1,
+          "E2_earnings_growth": 1
+        }
+      },
+      "quality": {
+        "score": 4,
+        "max": 4,
+        "criteria": {
+          "roe_gt_15pct": true,
+          "de_lt_1": true,
+          "margin_gt_10pct": true,
+          "revenue_growing": true
+        },
+        "pct": 100.0
+      },
+      "value": {
+        "score": 0,
+        "max": 3,
+        "criteria": {
+          "pe_below_sector_median": false,
+          "pb_lt_3": false,
+          "fcf_yield_gt_5pct": false
+        },
+        "pct": 0.0
+      },
+      "growth": {
+        "score": 3,
+        "max": 3,
+        "criteria": {
+          "revenue_growth_gt_10pct": true,
+          "earnings_growth_gt_15pct": true,
+          "forward_pe_lt_trailing": true
+        },
+        "pct": 100.0
+      },
+      "composite": 80.0
+    }
+  }
+}

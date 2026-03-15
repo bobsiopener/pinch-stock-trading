@@ -1,0 +1,177 @@
+{
+  "cash": 71510.11,
+  "trades": [
+    {
+      "id": 1,
+      "timestamp": "2026-03-14T00:00:00",
+      "date": "2026-03-14",
+      "symbol": "QQQ",
+      "side": "buy",
+      "shares": 99.0,
+      "price": 604.9,
+      "notional": 59885.1,
+      "strategy": "initial_import",
+      "reason": "Day 1 initial portfolio import"
+    },
+    {
+      "id": 2,
+      "timestamp": "2026-03-14T00:00:00",
+      "date": "2026-03-14",
+      "symbol": "NVDA",
+      "side": "buy",
+      "shares": 254.0,
+      "price": 177.19,
+      "notional": 45006.26,
+      "strategy": "initial_import",
+      "reason": "Day 1 initial portfolio import"
+    },
+    {
+      "id": 3,
+      "timestamp": "2026-03-14T00:00:00",
+      "date": "2026-03-14",
+      "symbol": "MSFT",
+      "side": "buy",
+      "shares": 101.0,
+      "price": 392.74,
+      "notional": 39666.74,
+      "strategy": "initial_import",
+      "reason": "Day 1 initial portfolio import"
+    },
+    {
+      "id": 4,
+      "timestamp": "2026-03-14T00:00:00",
+      "date": "2026-03-14",
+      "symbol": "GOOG",
+      "side": "buy",
+      "shares": 112.0,
+      "price": 311.43,
+      "notional": 34880.16,
+      "strategy": "initial_import",
+      "reason": "Day 1 initial portfolio import"
+    },
+    {
+      "id": 5,
+      "timestamp": "2026-03-14T00:00:00",
+      "date": "2026-03-14",
+      "symbol": "BRK-B",
+      "side": "buy",
+      "shares": 99.0,
+      "price": 502.67,
+      "notional": 49764.33,
+      "strategy": "initial_import",
+      "reason": "Day 1 initial portfolio import"
+    },
+    {
+      "id": 6,
+      "timestamp": "2026-03-14T00:00:00",
+      "date": "2026-03-14",
+      "symbol": "AVGO",
+      "side": "buy",
+      "shares": 125.0,
+      "price": 319.55,
+      "notional": 39943.75,
+      "strategy": "initial_import",
+      "reason": "Day 1 initial portfolio import"
+    },
+    {
+      "id": 7,
+      "timestamp": "2026-03-14T00:00:00",
+      "date": "2026-03-14",
+      "symbol": "GLD",
+      "side": "buy",
+      "shares": 124.0,
+      "price": 480.75,
+      "notional": 59613.0,
+      "strategy": "initial_import",
+      "reason": "Day 1 initial portfolio import"
+    },
+    {
+      "id": 8,
+      "timestamp": "2026-03-14T00:00:00",
+      "date": "2026-03-14",
+      "symbol": "TLT",
+      "side": "buy",
+      "shares": 495.0,
+      "price": 90.8,
+      "notional": 44946.0,
+      "strategy": "initial_import",
+      "reason": "Day 1 initial portfolio import"
+    },
+    {
+      "id": 9,
+      "timestamp": "2026-03-14T00:00:00",
+      "date": "2026-03-14",
+      "symbol": "PLTR",
+      "side": "buy",
+      "shares": 220.0,
+      "price": 135.94,
+      "notional": 29906.8,
+      "strategy": "initial_import",
+      "reason": "Day 1 initial portfolio import"
+    },
+    {
+      "id": 10,
+      "timestamp": "2026-03-14T00:00:00",
+      "date": "2026-03-14",
+      "symbol": "ANET",
+      "side": "buy",
+      "shares": 191.0,
+      "price": 130.25,
+      "notional": 24877.75,
+      "strategy": "initial_import",
+      "reason": "Day 1 initial portfolio import"
+    }
+  ],
+  "positions": {
+    "QQQ": {
+      "shares": 99.0,
+      "avg_cost": 604.9,
+      "strategy": "initial_import"
+    },
+    "NVDA": {
+      "shares": 254.0,
+      "avg_cost": 177.19,
+      "strategy": "initial_import"
+    },
+    "MSFT": {
+      "shares": 101.0,
+      "avg_cost": 392.74,
+      "strategy": "initial_import"
+    },
+    "GOOG": {
+      "shares": 112.0,
+      "avg_cost": 311.43,
+      "strategy": "initial_import"
+    },
+    "BRK-B": {
+      "shares": 99.0,
+      "avg_cost": 502.67,
+      "strategy": "initial_import"
+    },
+    "AVGO": {
+      "shares": 125.0,
+      "avg_cost": 319.55,
+      "strategy": "initial_import"
+    },
+    "GLD": {
+      "shares": 124.0,
+      "avg_cost": 480.75,
+      "strategy": "initial_import"
+    },
+    "TLT": {
+      "shares": 495.0,
+      "avg_cost": 90.8,
+      "strategy": "initial_import"
+    },
+    "PLTR": {
+      "shares": 220.0,
+      "avg_cost": 135.94,
+      "strategy": "initial_import"
+    },
+    "ANET": {
+      "shares": 191.0,
+      "avg_cost": 130.25,
+      "strategy": "initial_import"
+    }
+  }
+}
