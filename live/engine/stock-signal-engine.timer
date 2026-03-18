@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily Stock Signal Engine
+
+[Timer]
+OnCalendar=Mon..Fri 16:35
+OnCalendar=Mon..Fri 09:35
+Persistent=true
+
+[Install]
+WantedBy=timers.target

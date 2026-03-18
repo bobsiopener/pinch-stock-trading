@@ -1,0 +1,425 @@
+{
+  "timestamp": "2026-03-18T02:00:05.816319",
+  "regime": {
+    "regime": "LATE_CYCLE",
+    "confidence": 62,
+    "vix": 22.37,
+    "yield_curve": 0.52,
+    "fed_funds": 3.64,
+    "unemployment": 4.4,
+    "spy_above_200sma": true
+  },
+  "vix": {
+    "current": 22.37,
+    "percentile": 83.7,
+    "crisis_buy": false,
+    "elevated": false,
+    "complacent": false,
+    "signal": "NORMAL"
+  },
+  "connors": [
+    {
+      "type": "ENTRY",
+      "strategy": "CONNORS_RSI2",
+      "symbol": "GLD",
+      "rsi2": 0.0,
+      "rsi14": 38.0,
+      "price": 459.27,
+      "reason": "RSI(2)=0.0 < 10, above 200 SMA, trend confirmed"
+    }
+  ],
+  "oversold": [
+    {
+      "symbol": "XLF",
+      "rsi14": 20.5,
+      "price": 49.56
+    },
+    {
+      "symbol": "AAPL",
+      "rsi14": 23.1,
+      "price": 254.23
+    },
+    {
+      "symbol": "WFC",
+      "rsi14": 24.0,
+      "price": 76.23
+    },
+    {
+      "symbol": "COPX",
+      "rsi14": 24.2,
+      "price": 77.91
+    },
+    {
+      "symbol": "EWJ",
+      "rsi14": 29.1,
+      "price": 85.08
+    },
+    {
+      "symbol": "IWM",
+      "rsi14": 29.6,
+      "price": 250.06
+    }
+  ],
+  "overbought": [
+    {
+      "symbol": "USO",
+      "rsi14": 83.7,
+      "price": 118.84
+    },
+    {
+      "symbol": "PLTR",
+      "rsi14": 73.7,
+      "price": 155.08
+    },
+    {
+      "symbol": "XLE",
+      "rsi14": 73.2,
+      "price": 58.51
+    }
+  ],
+  "trend_breaks": [
+    {
+      "symbol": "MSTR",
+      "price": 150.28,
+      "sma200": 268.09,
+      "pct_from_sma": -43.94,
+      "signal": "BELOW_SMA200"
+    },
+    {
+      "symbol": "ORCL",
+      "price": 154.69,
+      "sma200": 219.52,
+      "pct_from_sma": -29.53,
+      "signal": "BELOW_SMA200"
+    },
+    {
+      "symbol": "MSFT",
+      "price": 399.41,
+      "sma200": 480.58,
+      "pct_from_sma": -16.89,
+      "signal": "BELOW_SMA200"
+    },
+    {
+      "symbol": "META",
+      "price": 622.66,
+      "sma200": 690.84,
+      "pct_from_sma": -9.87,
+      "signal": "BELOW_SMA200"
+    },
+    {
+      "symbol": "UNG",
+      "price": 12.2,
+      "sma200": 13.48,
+      "pct_from_sma": -9.5,
+      "signal": "BELOW_SMA200"
+    },
+    {
+      "symbol": "WFC",
+      "price": 76.23,
+      "sma200": 83.66,
+      "pct_from_sma": -8.88,
+      "signal": "BELOW_SMA200"
+    },
+    {
+      "symbol": "XLF",
+      "price": 49.56,
+      "sma200": 52.59,
+      "pct_from_sma": -5.76,
+      "signal": "BELOW_SMA200"
+    },
+    {
+      "symbol": "ARKK",
+      "price": 73.06,
+      "sma200": 76.97,
+      "pct_from_sma": -5.08,
+      "signal": "BELOW_SMA200"
+    },
+    {
+      "symbol": "AVGO",
+      "price": 321.31,
+      "sma200": 324.0,
+      "pct_from_sma": -0.83,
+      "signal": "BREAKDOWN"
+    }
+  ],
+  "multi_factor_top10": [
+    {
+      "symbol": "SHY",
+      "score": 66.5,
+      "mom": 1.1,
+      "vol": 1.3
+    },
+    {
+      "symbol": "HYG",
+      "score": 65.7,
+      "mom": 0.9,
+      "vol": 3.3
+    },
+    {
+      "symbol": "XLV",
+      "score": 65.1,
+      "mom": 10.0,
+      "vol": 13.6
+    },
+    {
+      "symbol": "LQD",
+      "score": 64.6,
+      "mom": -0.7,
+      "vol": 4.9
+    },
+    {
+      "symbol": "BRK-B",
+      "score": 63.2,
+      "mom": 0.1,
+      "vol": 17.4
+    },
+    {
+      "symbol": "SPY",
+      "score": 63.0,
+      "mom": 2.3,
+      "vol": 11.3
+    },
+    {
+      "symbol": "TLT",
+      "score": 62.2,
+      "mom": -1.2,
+      "vol": 9.0
+    },
+    {
+      "symbol": "QQQ",
+      "score": 62.2,
+      "mom": 2.5,
+      "vol": 15.1
+    },
+    {
+      "symbol": "XBI",
+      "score": 62.2,
+      "mom": 32.9,
+      "vol": 26.2
+    },
+    {
+      "symbol": "XLE",
+      "score": 60.3,
+      "mom": 32.3,
+      "vol": 20.1
+    }
+  ],
+  "multi_factor_bottom5": [
+    {
+      "symbol": "ANET",
+      "score": 37.6
+    },
+    {
+      "symbol": "ARKK",
+      "score": 35.1
+    },
+    {
+      "symbol": "PLTR",
+      "score": 33.8
+    },
+    {
+      "symbol": "ORCL",
+      "score": 32.4
+    },
+    {
+      "symbol": "MSTR",
+      "score": 31.1
+    }
+  ],
+  "covered_calls": [
+    {
+      "symbol": "CSCO",
+      "shares": 872,
+      "contracts": 8,
+      "price": 79.27,
+      "strike": 80.86,
+      "hv30": 44.9,
+      "iv_rank": 89.6,
+      "est_premium": 4.08,
+      "monthly_income": 3266.42,
+      "annual_yield": 61.8,
+      "recommend": true
+    },
+    {
+      "symbol": "QQQ",
+      "shares": 207,
+      "contracts": 2,
+      "price": 603.31,
+      "strike": 615.38,
+      "hv30": 16.9,
+      "iv_rank": 63.1,
+      "est_premium": 11.69,
+      "monthly_income": 2338.45,
+      "annual_yield": 23.3,
+      "recommend": true
+    },
+    {
+      "symbol": "ANET",
+      "shares": 200,
+      "contracts": 2,
+      "price": 133.07,
+      "strike": 135.73,
+      "hv30": 54.2,
+      "iv_rank": 74.3,
+      "est_premium": 8.27,
+      "monthly_income": 1654.77,
+      "annual_yield": 74.6,
+      "recommend": true
+    },
+    {
+      "symbol": "IWM",
+      "shares": 202,
+      "contracts": 2,
+      "price": 250.06,
+      "strike": 255.06,
+      "hv30": 20.4,
+      "iv_rank": 74.3,
+      "est_premium": 5.84,
+      "monthly_income": 1168.53,
+      "annual_yield": 28.0,
+      "recommend": true
+    },
+    {
+      "symbol": "BRK-B",
+      "shares": 100,
+      "contracts": 1,
+      "price": 492.58,
+      "strike": 502.43,
+      "hv30": 20.7,
+      "iv_rank": 83.8,
+      "est_premium": 11.68,
+      "monthly_income": 1168.22,
+      "annual_yield": 28.5,
+      "recommend": true
+    },
+    {
+      "symbol": "SPY",
+      "shares": 100,
+      "contracts": 1,
+      "price": 670.79,
+      "strike": 684.21,
+      "hv30": 12.6,
+      "iv_rank": 65.3,
+      "est_premium": 9.66,
+      "monthly_income": 966.25,
+      "annual_yield": 17.3,
+      "recommend": true
+    }
+  ],
+  "portfolio": {
+    "total_value": 501162.72,
+    "cash": 71530.11,
+    "cash_pct": 14.3,
+    "regime": "LATE_CYCLE",
+    "target_allocation": {
+      "equities": 0.55,
+      "bonds": 0.15,
+      "gold": 0.15,
+      "cash": 0.15,
+      "note": "Rotate to defensive sectors, add gold"
+    },
+    "current_allocation": {
+      "equities": 0.56,
+      "bonds": 0.086,
+      "gold": 0.114,
+      "cash": 0.143
+    },
+    "rebalance_suggestions": [
+      "ADD BONDS (9% \u2192 15%)"
+    ],
+    "positions": [
+      {
+        "symbol": "PLTR",
+        "shares": 220,
+        "entry": 135.94,
+        "current": 155.08,
+        "market_value": 34117.6,
+        "pnl": 4210.8,
+        "pnl_pct": 14.08
+      },
+      {
+        "symbol": "NVDA",
+        "shares": 254,
+        "entry": 177.19,
+        "current": 181.93,
+        "market_value": 46210.22,
+        "pnl": 1203.96,
+        "pnl_pct": 2.68
+      },
+      {
+        "symbol": "ANET",
+        "shares": 191,
+        "entry": 130.25,
+        "current": 133.07,
+        "market_value": 25416.37,
+        "pnl": 538.62,
+        "pnl_pct": 2.17
+      },
+      {
+        "symbol": "MSFT",
+        "shares": 101,
+        "entry": 392.74,
+        "current": 399.41,
+        "market_value": 40340.41,
+        "pnl": 673.67,
+        "pnl_pct": 1.7
+      },
+      {
+        "symbol": "AVGO",
+        "shares": 125,
+        "entry": 319.55,
+        "current": 321.31,
+        "market_value": 40163.75,
+        "pnl": 220.0,
+        "pnl_pct": 0.55
+      },
+      {
+        "symbol": "QQQ",
+        "shares": 99,
+        "entry": 604.9,
+        "current": 603.31,
+        "market_value": 59727.69,
+        "pnl": -157.41,
+        "pnl_pct": -0.26
+      },
+      {
+        "symbol": "GOOG",
+        "shares": 112,
+        "entry": 311.43,
+        "current": 309.41,
+        "market_value": 34653.92,
+        "pnl": -226.24,
+        "pnl_pct": -0.65
+      },
+      {
+        "symbol": "BRK-B",
+        "shares": 99,
+        "entry": 502.67,
+        "current": 492.58,
+        "market_value": 48765.42,
+        "pnl": -998.91,
+        "pnl_pct": -2.01
+      },
+      {
+        "symbol": "TLT",
+        "shares": 495,
+        "entry": 90.8,
+        "current": 87.45,
+        "market_value": 43287.75,
+        "pnl": -1658.25,
+        "pnl_pct": -3.69
+      },
+      {
+        "symbol": "GLD",
+        "shares": 124,
+        "entry": 480.75,
+        "current": 459.27,
+        "market_value": 56949.48,
+        "pnl": -2663.52,
+        "pnl_pct": -4.47
+      }
+    ],
+    "best_performer": "PLTR",
+    "worst_performer": "GLD"
+  }
+}
